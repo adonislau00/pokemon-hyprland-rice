@@ -1,0 +1,1 @@
+stow -d ~/Projects/pokemon-hyprland-rice/ -t ~/ dotfiles
