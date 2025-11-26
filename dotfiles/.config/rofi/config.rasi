@@ -1,0 +1,164 @@
+/**
+ * User: Rasi
+ * Copyright: Rasmus Steinke
+ */
+
+/* global settings and color variables */
+* {
+    blue:        #A7c6E2;
+    white:       #FFFFFF;
+    black:       #000000;
+    light-grey:  #F5F5F5;
+    medium-grey: #706880;
+    urgent:      #D75F00;
+    active:      #005F87;
+    transparent: #000000aa;
+    spacing: 0em;
+    font: "mono 20";
+    padding: 0px;
+    background-color: @white;
+    line-style: "none";
+}
+
+prompt-box {
+	background-color: @transparent;
+}
+
+prompt {
+	background-color: transparent;
+	text-color: @white;
+}
+
+window {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: @medium-grey;
+    border: 5;
+    border-color: @black;
+}
+mainbox {
+    padding: 0px;
+    background-color: @white;
+    border: 2px;
+    border-color: @black;
+    border-radius: 7px;
+    spacing: 0%;
+}
+
+listview {
+    // Looks.
+    border-radius: 10px;
+    border: 0px;
+    padding: 10px;
+    margin: 5px;
+    background-color: @white;
+    // Enable scrollbar
+    scrollbar: false;
+    scrollbar-width: 5px;
+    fixed-height: true;
+    reverse: false;
+    color: #000000;
+    spacing: 0.3em;
+}
+scrollbar {
+    color: @black;
+    background-color: @blue;
+    padding: 1px;
+}
+element {
+    border: 2px;
+    border-color: @white;
+    padding: 1px;
+    margin: 0px;
+    color: @black;
+    background-color: @white;
+}
+element normal.normal {
+    color: @black;
+    background-color: @white;
+}
+element normal.urgent {
+    color: @urgent;
+    background-color: @light-grey;
+}
+element normal.active {
+    color: @active;
+    background-color: @light-grey;
+}
+element selected.normal {
+    border-radius: 2px;
+    border-color: red;
+    background-color: white;
+    text-color: black;
+}
+element selected.urgent {
+    color: @light-grey;
+    background-color: @urgent;
+}
+element selected.active {
+    color: @light-grey;
+    background-color: @active;
+}
+element alternate.normal {
+    color: @black;
+    background-color: @white;
+}
+element alternate.urgent {
+    color: @urgent;
+    background-color: @medium-grey;
+}
+element alternate.active {
+    color: @active;
+    background-color: @medium-grey;
+}
+inputbar {
+    spacing: 0;
+    background-color: @white;
+    border: 0px 0px 2px 0px;
+    border-color: @black;
+    border-radius: 0px;
+    padding: 5px 10px 5px 15px;
+    background-color: @white;
+    end: false;
+}
+
+window {
+	location:	 northeast;
+	anchor:		 north;
+	height:		 80%;
+	width:		 30%;
+	orientation: horizontal;
+    margin: 5px;
+}
+separator {
+    background-color: @blue;
+    color: #00000000;
+}
+prompt normal.normal {
+    background-color: @white;
+    color: @black;
+    padding: 0px;
+}
+entry normal.normal {
+    background-color: #00000000;
+    color: #ffffff;
+    padding: 0px;
+}
+case-indicator normal.normal {
+    background-color: #00000000;
+    color: #ffffff;
+    padding: 0px;
+}
+
+message {
+	margin: 30px 30px 30px 30px;
+	padding: 20px 30px 20px 20px;
+    padding:      1px ;
+    border-radius: 10px;
+    border: 5px 5px 5px 5px;
+}
+
+prompt-colon {
+    spacing:    0;
+    enabled: false;
+}
