@@ -103,14 +103,14 @@ button:hover {
     background-color: transparent;
     font-family: monospace;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #battery {
     background-color: transparent;
     font-weight: bold;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #battery.charging, #battery.plugged {
@@ -141,6 +141,7 @@ button:hover {
     font-family: monospace;
     font-weight: bold;
     font-style: italic;
+    font-size: 16px;
 }
 
 #network.disconnected {
@@ -150,6 +151,7 @@ button:hover {
 #pulseaudio {
     background-color: transparent;
     color: white;
+    font-size: 16px;
 }
 
 #pulseaudio.muted {
@@ -176,6 +178,7 @@ button:hover {
 
 #custom-power {
     background-color: transparent;
+    font-size: 18px;
 }
 
 #custom-power.Gtkmenu {
