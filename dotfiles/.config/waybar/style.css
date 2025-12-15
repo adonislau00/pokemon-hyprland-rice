@@ -184,3 +184,8 @@ button:hover {
 #custom-power.Gtkmenu {
     background-color: black;
 }
+
+#custom-updates {
+	background-color: transparent;
+    font-size: 18px;
+}
