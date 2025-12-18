@@ -100,6 +100,6 @@
         "updated": "󰠰"
     },
     "exec-if": "which waybar-module-pacman-updates",
-    "exec": "waybar-module-pacman-updates --interval-seconds 3600 --no-zero-output"
+    "exec": "waybar-module-pacman-updates --interval-seconds 60 --no-zero-output"
 }
 }
