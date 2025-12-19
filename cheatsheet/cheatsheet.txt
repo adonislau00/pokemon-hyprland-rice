@@ -1,0 +1,9 @@
+Hard Drive Names:
+- nvme2n1 = Linux
+- nvme1n1 = Windows
+- nvme0n1 = Storage
+
+Connect to Wifi:
+- sudo systemctl enable --now NetworkManager
+- nmcli device wifi list
+- nmcli device wifi connect "Wifi_Name" password "Password"
