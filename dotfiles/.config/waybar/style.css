@@ -116,6 +116,7 @@ button:hover {
 #battery.charging, #battery.plugged {
     color: #ffffff;
     background-color: #26A65B;
+    border-radius: 10;
 }
 
 @keyframes blink {
@@ -188,4 +189,25 @@ button:hover {
 #custom-updates {
 	background-color: transparent;
     font-size: 18px;
+}
+
+menu {
+    background-color: white;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+menu menuitem{
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    border: 4px solid transparent;
+    border-radius: 4px;
+}
+
+menu menuitem:hover{
+    color: black;
+    border: 4px solid rgb(255, 59, 59);
+    background-color: transparent;
 }
