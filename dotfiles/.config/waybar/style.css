@@ -194,8 +194,9 @@ button:hover {
 menu {
     background-color: white;
     color: black;
-    padding: 0px;
+    padding: 4px;
     margin: 0px;
+    border: 6px solid rgb(85, 85, 85);
 }
 
 menu menuitem{
