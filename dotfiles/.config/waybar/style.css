@@ -24,6 +24,18 @@ window#waybar.chromium {
     border: none;
 }
 
+tooltip {
+    background: #ffffff;
+    border: 4px solid rgb(85, 85, 85);
+    text-shadow: none;
+}
+
+tooltip label {
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+}
+
 button {
     /* Use box-shadow instead of border so the text isn't offset */
     box-shadow: inset 0 -3px transparent;
@@ -106,11 +118,7 @@ button:hover {
     font-size: 18px;
 }
 
-tooltip {
-    background: #ffffff;
-    border: 4px solid rgb(85, 85, 85);
-    text-shadow: none;
-}
+
 
 #battery {
     background-color: transparent;

@@ -73,7 +73,8 @@
     "network": {
         "format-wifi": "{essid} ({signalStrength}%)",
         "format-ethernet": "{ipaddr}/{cidr}",
-        "format-disconnected": "Disconnected ⚠"
+        "format-disconnected": "Disconnected ⚠",
+        "tooltip": false
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
@@ -90,7 +91,8 @@
             "portable": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
+        "tooltip": false
     },
     "custom/power": {
         "format" : " 󰐝 ",
