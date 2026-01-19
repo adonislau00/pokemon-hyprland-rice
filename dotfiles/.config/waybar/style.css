@@ -110,20 +110,21 @@ button:hover {
     background-color: transparent;
     font-weight: bold;
     font-size: 16px;
+    padding: 10px;
 }
-
-
 
 #battery {
     background-color: transparent;
     font-weight: bold;
     font-size: 16px;
+    padding: 10px;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
     background-color: #26A65B;
     border-radius: 10;
+    padding: 10px;
 }
 
 @keyframes blink {
@@ -142,6 +143,7 @@ button:hover {
     animation-timing-function: steps(12);
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    padding: 10px;
 }
 
 #network {
@@ -149,6 +151,7 @@ button:hover {
     font-weight: bold;
     font-style: italic;
     font-size: 16px;
+    padding: 10px;
 }
 
 #network.disconnected {
@@ -159,6 +162,7 @@ button:hover {
     background-color: transparent;
     color: white;
     font-size: 16px;
+    padding: 10px;
 }
 
 #pulseaudio.muted {
@@ -186,6 +190,7 @@ button:hover {
 #custom-power {
     background-color: transparent;
     font-size: 18px;
+    padding: 10px;
 }
 
 #custom-power.Gtkmenu {
@@ -195,6 +200,7 @@ button:hover {
 #custom-updates {
 	background-color: transparent;
     font-size: 18px;
+    padding: 10px;
 }
 
 menu {

@@ -95,7 +95,7 @@
         "tooltip": false
     },
     "custom/power": {
-        "format" : "󰐝 ",
+        "format" : "󰐝",
 		"tooltip": false,
 		"menu": "on-click",
 		"menu-file": "~/.config/waybar/power_menu.xml",
@@ -107,7 +107,7 @@
 		}
     },
     "custom/sep": {
-        "format" : " | ",
+        "format" : "|",
         "interval" : 0,
         "tooltip" : false
     },
