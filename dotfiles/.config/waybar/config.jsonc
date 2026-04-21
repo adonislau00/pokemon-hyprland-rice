@@ -74,7 +74,8 @@
         "format-wifi": "{essid} ({signalStrength}%)",
         "format-ethernet": "{ipaddr}/{cidr}",
         "format-disconnected": "Disconnected ⚠",
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "kitty --title nmtui nmtui"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
